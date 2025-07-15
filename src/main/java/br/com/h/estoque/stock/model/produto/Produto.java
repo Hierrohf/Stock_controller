@@ -1,5 +1,6 @@
 package br.com.h.estoque.stock.model.produto;
 
+import br.com.h.estoque.stock.enums.Categoria;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -24,7 +25,8 @@ public class Produto {
     private String nome;
 
     @Column(name = "CATEG_PRODUTO")
-    private String categoria;
+    @Enumerated(EnumType.STRING)
+    private Categoria categoria;
 
     @Column(name = "QUANT_ESTOQUE")
     private BigDecimal quantidadeEstoque;

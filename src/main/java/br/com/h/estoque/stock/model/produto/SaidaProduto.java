@@ -1,7 +1,7 @@
 package br.com.h.estoque.stock.model.produto;
 
-import br.com.h.estoque.stock.enums.PontoDeVenda;
 import br.com.h.estoque.stock.model.funcionario.Funcionario;
+import br.com.h.estoque.stock.model.ponto.venda.PontoDeVenda;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -32,7 +32,6 @@ public class SaidaProduto {
 
     @ManyToOne
     @JoinColumn(name = "PONTO_VENDA_ID", nullable = false)
-    @Enumerated(EnumType.STRING)
     private PontoDeVenda pontoDeVenda;
 
     @Column(name = "QUANTIDADE",nullable = false)
