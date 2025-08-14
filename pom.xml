@@ -60,11 +60,19 @@
 			<scope>runtime</scope>
 		</dependency>
 
+<<<<<<< HEAD
 <!--		<dependency>-->
 <!--			<groupId>org.hibernate.orm</groupId>-->
 <!--			<artifactId>hibernate-community-dialects</artifactId>-->
 <!--			<version>6.6.18.Final</version> &lt;!&ndash; mesma versão do seu hibernate-core &ndash;&gt;-->
 <!--		</dependency>-->
+=======
+		<dependency>
+			<groupId>org.hibernate.orm</groupId>
+			<artifactId>hibernate-community-dialects</artifactId>
+			<version>6.6.18.Final</version> <!-- mesma versão do seu hibernate-core -->
+		</dependency>
+>>>>>>> 3dd1aa2b733d42f82c442dfacdd8a7467b5db2a8
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

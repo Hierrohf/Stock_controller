@@ -5,7 +5,10 @@ import br.com.h.estoque.stock.enums.Categoria;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
+<<<<<<< HEAD
 import lombok.Getter;
+=======
+>>>>>>> 3dd1aa2b733d42f82c442dfacdd8a7467b5db2a8
 
 import java.math.BigDecimal;
 

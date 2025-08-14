@@ -1,8 +1,11 @@
 package br.com.h.estoque.stock.model.produto;
 
 import br.com.h.estoque.stock.enums.Categoria;
+<<<<<<< HEAD
 import br.com.h.estoque.stock.model.produto.dto.ProdutoRequestDto;
 import br.com.h.estoque.stock.model.produto.dto.ProdutoResponseDto;
+=======
+>>>>>>> 3dd1aa2b733d42f82c442dfacdd8a7467b5db2a8
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -32,6 +35,7 @@ public class Produto {
 
     @Column(name = "QUANT_ESTOQUE")
     private BigDecimal quantidadeEstoque;
+<<<<<<< HEAD
 
     public Produto(String nome, Categoria categoria, BigDecimal quantidadeEstoque){
         this.nome = nome;
@@ -39,4 +43,6 @@ public class Produto {
         this.quantidadeEstoque = quantidadeEstoque;
     }
 
+=======
+>>>>>>> 3dd1aa2b733d42f82c442dfacdd8a7467b5db2a8
 }
